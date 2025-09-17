@@ -38,6 +38,10 @@ nav a {
 nav a:hover {
   color: #acaaaa;
 }
+nav a:active {
+  color: #acaaaa;
+  border-bottom: 1ps solid #acaaaa;
+}
 header .logo a{
   text-decoration: none;
   color: white;
@@ -117,7 +121,7 @@ header .logo a{
   margin: 0 auto;
   align-items: center;
   width: 280px;
-  border: 1px solid rgb(154, 151, 151);
+  border: 1px solid #8580804f;
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
@@ -137,4 +141,52 @@ header .logo a{
   margin-left: 15px;
   cursor: pointer;
   transition: color 0.3s ease;
+}
+.icx i{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 280px;
+  border: 1px solid #8580804f;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  font-size: 50px;
+}
+.tech{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container3{
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    color: rgb(154, 151, 151);
+    padding: 20px;
+  }
+  .projects{
+  cursor: pointer;
+  color: whitesmoke;
+  padding: 5px;
+  background: transparent;
+  border-radius: 15px;
+  border: 1px solid #8580804f;
+  width: 290px;
+  height: 290px;
+  box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
+}
+.projects h2{
+  font-size: 18px;
+  margin-top: -1px;
+}
+.projects p{
+  font-size: 14px;
+  margin-top: -5px;
+}
+.cent{
+  display: flex;
+  margin: 0, auto;
+  justify-content: center;
 }
