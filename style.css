@@ -1,3 +1,16 @@
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: #111;
+}
+::-webkit-scrollbar-thumb{
+  background: #444;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #666;
+}
 *{
   box-sizing: border-box;
 }
@@ -38,9 +51,8 @@ nav a {
 nav a:hover {
   color: #acaaaa;
 }
-nav a:active {
+nav a.active {
   color: #acaaaa;
-  border-bottom: 1ps solid #acaaaa;
 }
 header .logo a{
   text-decoration: none;
@@ -154,11 +166,6 @@ header .logo a{
   border-radius: 8px;
   font-size: 50px;
 }
-.tech{
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
 .container3{
     max-width: 800px;
     min-height: 100vh;
@@ -189,4 +196,108 @@ header .logo a{
   display: flex;
   margin: 0, auto;
   justify-content: center;
+}
+.icxx{
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 200px;
+  margin: 0, auto;
+  width: 280px;
+  border: 1px solid #8580804f;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  font-size: 50px;
+}
+.imgx{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: auto;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
+  padding: 20px;
+  align-items: center;
+}
+input{
+  background: transparent;
+  color: white;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #8580804f;
+}
+.area{
+  background-color: transparent;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+  outline: none;
+  color: white;
+}
+.submit{
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 16px;
+  background: whitesmoke;
+}
+.sub{
+  display: flex;
+  width: 500px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-card {
+  background: transparent;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+}
+
+.experience-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.experience-card h4 {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+  color: #aaa;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 0.8rem;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ddd;
 }
