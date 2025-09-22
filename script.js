@@ -1,19 +1,25 @@
-document.addEventListener('DOMContentLoaded', ()=>{
-  const navLink= document.querySelector('nav');
-const Bar= document.querySelector('.fa-bars');
-const closeTag= document.querySelector('.fa-close');
+document.addEventListener("DOMContentLoaded", () => {
+  const navbars = document.querySelectorAll(".container");
 
-const showNav = () =>{
-  Bar.addEventListener('click', ()=>{
-    navLink.style.display= 'block';
-    closeTag.style.display= 'block';
-    Bar.style.display= 'none';
+  navbars.forEach(navbarContainer => {
+    const menuIcon = navbarContainer.querySelector(".fa-bars");
+    const closeIcon = navbarContainer.querySelector(".fa-xmark");
+    const navbar = navbarContainer.querySelector("nav");
+
+    // Initial state
+    // navbar.style.display = "none";
+    closeIcon.style.display = "none";
+
+    menuIcon.addEventListener("click", () => {
+      navbar.style.display="block"
+      menuIcon.style.display = "none";
+      closeIcon.style.display = "block";
+    });
+
+    closeIcon.addEventListener("click", () => {
+      navbar.style.display="none";
+      menuIcon.style.display = "block";
+      closeIcon.style.display = "none";
+    });
   });
-   closeTag.addEventListener('click', ()=>{
-    navLink.style.display= 'none';
-    closeTag.style.display= 'none';
-    Bar.style.display= 'block';
-  });
-};
-showNav();
 });
