@@ -115,8 +115,8 @@ header .logo a{
   background: transparent;
   border-radius: 15px;
   border: 1px solid #8580804f;
-  width: 290px;
-  height: 290px;
+  width: 300px;
+  height: 300px;
   box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
 }
 .project h3{
@@ -133,7 +133,7 @@ header .logo a{
   justify-content: center;
   margin: 0 auto;
   align-items: center;
-  width: 280px;
+  width: 290px;
   border: 1px solid #8580804f;
   height: 200px;
   object-fit: cover;
@@ -160,7 +160,7 @@ header .logo a{
   justify-content: center;
   margin: 0 auto;
   align-items: center;
-  width: 280px;
+  width: 290px;
   border: 1px solid #8580804f;
   height: 200px;
   object-fit: cover;
@@ -181,8 +181,8 @@ header .logo a{
   background: transparent;
   border-radius: 15px;
   border: 1px solid #8580804f;
-  width: 290px;
-  height: 290px;
+  width: 300px;
+  height: 300px;
   box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
 }
 .projects h2{
@@ -205,7 +205,7 @@ header .logo a{
   width: 90px;
   height: 200px;
   margin: 0, auto;
-  width: 280px;
+  width: 290px;
   border: 1px solid #8580804f;
   height: 200px;
   object-fit: cover;
