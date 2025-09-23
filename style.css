@@ -120,12 +120,13 @@ header .logo a{
   box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
 }
 .project h3{
+  padding: 0px 10px;
   font-size: 18px;
-  margin-top: -1px;
 }
 .project p{
+  padding: 0 10px;
   font-size: 14px;
-  margin-top: -5px;
+  margin-top: -15px;
 }
 .imgb img{
   display: flex;
@@ -185,12 +186,13 @@ header .logo a{
   box-shadow: 0 15px 15px rgba(40, 39, 39, 0.5);
 }
 .projects h2{
+  padding: 1px 10px; 
   font-size: 18px;
-  margin-top: -1px;
 }
 .projects p{
+  margin-top: -10px;
+  padding: 0 10px;
   font-size: 14px;
-  margin-top: -5px;
 }
 .cent{
   display: flex;
